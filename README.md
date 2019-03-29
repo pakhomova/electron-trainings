@@ -1,2 +1,2 @@
 # electron-trainings
-My first steps&amp;
+My first steps.;

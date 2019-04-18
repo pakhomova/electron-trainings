@@ -13,14 +13,15 @@
     >, Chromium
     <script>
       document.write(process.versions.chrome);</script
-    >, and Electron
-    <script>
-      document.write(process.versions.electron);</script
-    >.
+    >, and Electron<script>document.write(process.versions.electron);</script>.
 
-    <script>
-      // You can also require other files to run in this process
-      require('./renderer.js');
-    </script>
+    <div class="audio">
+      <audio id="A" , src="sounds/A.mp3" , preload="auto"></audio>
+    </div>
   </body>
+
+  <script>
+    // You can also require other files to run in this process
+    require('./renderer.js');
+  </script>
 </html>

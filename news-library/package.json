@@ -12,6 +12,6 @@
   "scripts": {
     "start": "electron main.js"
   },
-  "author": "",
+  "author": "Yevheniia Pakhomova",
   "license": "ISC"
 }

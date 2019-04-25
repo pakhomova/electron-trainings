@@ -47,6 +47,10 @@ function createAddWindow() {
       slashes: true
     })
   );
+  //garbage collection handle
+  addWindow.on('close', function() {
+    addWindow = null;
+  });
 }
 
 //create menu template

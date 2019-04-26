@@ -70,7 +70,12 @@ const mainMenuTemplate = [
           createAddWindow();
         }
       },
-      { label: 'Clear items' },
+      {
+        label: 'Clear items',
+        click() {
+          mainWindow.webContents.send('item:clear');
+        }
+      },
       {
         label: 'Quit',
         accelerator: process.platform == 'darwin' ? 'Command+Q' : 'Ctrl+Q',
